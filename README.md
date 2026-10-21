@@ -1,5 +1,6 @@
 # 🛡️ Standard Software Disclaimer & Limitation of Liability (`cjtsh`)
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/Default_License-MIT-blue.svg)](LICENSE)
 [![License: Apache 2.0](https://img.shields.io/badge/Alternative_License-Apache_2.0-green.svg)](licenses/LICENSE-APACHE-2.0)
 [![Status: Active Standard](https://img.shields.io/badge/Legal_Notice-Active_Standard-critical.svg)](DISCLAIMER.md)
@@ -29,8 +30,16 @@ By downloading, cloning, compiling, installing, mounting, or executing any Softw
 3. **Data & System Backups:** You are solely responsible for backing up your data, credentials, and configurations, and for verifying that your system is appropriate before running experimental code.
 4. **No Support or Maintenance Commitment:** All open-source projects are provided free of charge without any service-level agreement (SLA), warranty, or guarantee of ongoing maintenance, security patching, or future OS/hardware compatibility.
 5. **Informational Use Only:** Any telemetry, diagnostics, memory estimates, security checks, or analytical outputs displayed by our tools are strictly informational and do not constitute professional engineering, cybersecurity, financial, or legal advice.
+6. **Automated Execution:** AI agents, generated code, and automated commands or API calls may act incorrectly or destructively. Users are responsible for review, sandboxing, and supervision.
+7. **Indemnification:** To the maximum extent permitted by law, users agree to defend, indemnify, and hold harmless Bitseeker LLC and its members, managers, officers, employees, agents, and contributors from claims and reasonable legal expenses arising from their misuse, violations of terms or third-party rights, or illegal, reckless, or negligent conduct involving the software.
+8. **Restricted Uses & Compliance:** The Software is not intended or permitted for life-safety or other mission-critical uses. It provides no financial, legal, tax, or regulatory advice; users are responsible for complying with applicable laws and regulations.
+9. **Governing Law:** Florida law governs. Disputes shall be brought in state or federal courts in Palm Beach County, Florida, to the extent permitted by law. Invalid terms will be narrowed as described in [`DISCLAIMER.md`](DISCLAIMER.md).
 
 👉 **Read the full standalone legal notice:** [**`DISCLAIMER.md`**](DISCLAIMER.md)
+
+## Releases
+
+**Current version: [v1.0.0](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.0.0)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
 
 ---
 
@@ -43,7 +52,7 @@ Unless otherwise noted in a specific repository, our projects are distributed un
 ```text
 MIT License
 
-Copyright (c) 2026 Chris J Terry
+Copyright (c) 2026 Bitseeker LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -136,7 +145,7 @@ For desktop binaries (macOS `.dmg` / `.app`, Linux `AppImage`, Windows executabl
 | :--- | :--- |
 | [`README.md`](README.md) | Overview, universal disclaimer, MIT vs. Apache 2.0 guide, and integration snippets |
 | [`DISCLAIMER.md`](DISCLAIMER.md) | Standalone universal Software Disclaimer, Assumption of Risk & Limitation of Liability |
-| [`LICENSE`](LICENSE) | Default canonical MIT License (`Chris J Terry (cjtsh)`) |
+| [`LICENSE`](LICENSE) | Default canonical MIT License (`Bitseeker LLC`) |
 | [`licenses/LICENSE-MIT`](licenses/LICENSE-MIT) | Standard MIT License template |
 | [`licenses/LICENSE-APACHE-2.0`](licenses/LICENSE-APACHE-2.0) | Standard Apache License 2.0 template |
 | [`templates/README-DISCLAIMER-SNIPPET.md`](templates/README-DISCLAIMER-SNIPPET.md) | Drop-in Markdown disclaimer block for project `README.md` files |

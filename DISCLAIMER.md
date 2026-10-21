@@ -4,6 +4,8 @@
 **Author / Maintainer:** Chris J Terry (`cjtsh`) / Bitseeker LLC  
 **Canonical URL:** [https://github.com/cjtsh/software-disclaimer](https://github.com/cjtsh/software-disclaimer)
 
+For purposes of this disclaimer, “Protected Parties” means Bitseeker LLC and its members, managers, officers, employees, agents, and contributors, together with Chris J Terry (`cjtsh`) and the authors and contributors to the Software.
+
 ---
 
 ## 1. Conspicuous Notice of Warranty Disclaimer & Liability Limitation
@@ -16,7 +18,27 @@ IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, CONTRIBUTORS, OR AFFILIATED EN
 
 ---
 
-## 2. Assumption of Risk & User Responsibilities
+## 2. Autonomous Agents, AI & Automated Execution
+
+AUTONOMOUS AGENTS, LARGE LANGUAGE MODELS (LLMS), AUTOMATED COMMAND EXECUTION, GENERATED CODE, AND AUTOMATED API QUERIES MAY PRODUCE INCORRECT, DESTRUCTIVE, OR UNPREDICTABLE RESULTS. YOU ARE SOLELY RESPONSIBLE FOR REVIEWING, SANDBOXING, AND SUPERVISING AUTOMATED ACTIONS AND FOR ANY EXECUTION OR FILE, SYSTEM, NETWORK, OR ACCOUNT CHANGES THEY MAKE.
+
+## 3. Prohibited High-Risk Uses
+
+THE SOFTWARE IS NOT DESIGNED, MANUFACTURED, OR INTENDED FOR USE IN HAZARDOUS ENVIRONMENTS, FLIGHT NAVIGATION, LIFE-SUPPORT OPERATIONS, MOTOR VEHICLE CONTROL, INDUSTRIAL CONTROL SYSTEMS, OR ANY MISSION-CRITICAL SETTING WHERE FAILURE COULD LEAD DIRECTLY TO DEATH, PERSONAL INJURY, SEVERE PHYSICAL DAMAGE, OR ENVIRONMENTAL DESTRUCTION. SUCH USE IS PROHIBITED.
+
+## 4. No Financial, Legal, Tax, or Regulatory Advice
+
+THE SOFTWARE DOES NOT PROVIDE FINANCIAL, INVESTMENT, LEGAL, TAX, OR PROFESSIONAL COMPLIANCE ADVICE. YOU ARE SOLELY RESPONSIBLE FOR ENSURING THAT YOUR USE OF THE SOFTWARE COMPLIES WITH ALL APPLICABLE LAWS, REGULATIONS, SECURITIES LAWS, SANCTIONS, AND NETWORK PROTOCOL RULES.
+
+## 5. Indemnification & Hold Harmless
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS THE PROTECTED PARTIES FROM AND AGAINST CLAIMS, LIABILITIES, DAMAGES, LOSSES, COSTS, AND EXPENSES (INCLUDING REASONABLE ATTORNEYS’ FEES) ARISING FROM OR RELATED TO: (A) YOUR USE OR MISUSE OF THE SOFTWARE; (B) YOUR VIOLATION OF THIS DISCLAIMER; (C) YOUR VIOLATION OF THIRD-PARTY RIGHTS, INCLUDING INTELLECTUAL PROPERTY, PRIVACY, OR TERMS OF SERVICE; OR (D) ILLEGAL, RECKLESS, OR NEGLIGENT ACTIONS YOU COMMIT USING OR IN CONNECTION WITH THE SOFTWARE.
+
+## 6. Governing Law & Jurisdiction
+
+This disclaimer and any dispute arising out of or related to the Software shall be governed by the laws of the State of Florida, without regard to its conflict-of-law principles. Any suit, action, or proceeding arising out of or related to the Software shall be brought exclusively in the state or federal courts located in Palm Beach County, Florida, and you consent to their jurisdiction and venue, to the extent permitted by law.
+
+## 7. Assumption of Risk & User Responsibilities
 
 By downloading, cloning, compiling, installing, configuring, or executing the Software, you explicitly acknowledge and agree that:
 
@@ -28,20 +50,20 @@ By downloading, cloning, compiling, installing, configuring, or executing the So
 
 ---
 
-## 3. Statutory Protections & Severability
+## 8. Statutory Protections & Severability
 
 Under applicable law, including the Uniform Commercial Code (UCC), implied warranties of merchantability and fitness for a particular purpose are expressly disclaimed, and incidental and consequential damages are expressly excluded.
 
-Some jurisdictions do not allow the exclusion of certain implied warranties or the limitation or exclusion of liability for incidental or consequential damages. In such jurisdictions, the liability of the authors and copyright holders shall be limited to the maximum extent permitted by applicable law ($0.00 USD or the minimum statutory amount required by law). If any provision of this disclaimer is held to be unenforceable, the remaining provisions shall continue in full force and effect.
+Some jurisdictions do not allow the exclusion of certain implied warranties or the limitation or exclusion of liability for incidental or consequential damages. In such jurisdictions, the liability of the authors and copyright holders shall be limited to the maximum extent permitted by applicable law ($0.00 USD or the minimum statutory amount required by law). If any provision of this disclaimer is held invalid, illegal, or unenforceable, it shall be modified to the minimum extent necessary to make it valid and enforceable, and the remaining provisions shall continue in full force and effect.
 
 ---
 
-## 4. Third-Party Trademarks
+## 9. Third-Party Trademarks
 
 All third-party product names, logos, brands, and trademarks (including but not limited to Apple, macOS, Apple Silicon, Metal, Linux, Windows, Docker, and GitHub) referenced in our repositories are the property of their respective owners. Use of these names does not imply any affiliation with, sponsorship by, or endorsement by the respective trademark holders.
 
 ---
 
-## 5. Governing Open-Source License
+## 10. Governing Open-Source License
 
 Unless explicitly stated otherwise in a specific repository's root `LICENSE` file, all software published under [`cjtsh`](https://github.com/cjtsh) is licensed under the standard **MIT License** (or **Apache License 2.0** where specified). This disclaimer supplements—and does not narrow or remove—the warranty disclaimers and liability limitations contained within the applicable open-source license.
