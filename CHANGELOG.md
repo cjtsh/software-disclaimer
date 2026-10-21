@@ -2,6 +2,14 @@
 
 Notable changes to this project are recorded here. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.2.1] - 2026-10-21
+
+### Changed
+
+- Updated current governing-law and forum references to Wyoming and Sheridan County to reflect Bitseeker LLC’s organization in Wyoming.
+- Replaced Florida statutory references with Wyoming statutes and clarified that the LLC statute does not eliminate individual liability for a person’s own conduct.
+- Updated the first-run notice, README snippet, release badge, and current-version links.
+
 ## [1.2.0] - 2026-10-21
 
 ### Changed

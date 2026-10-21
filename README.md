@@ -1,6 +1,6 @@
 # 🛡️ Bitseeker LLC Software Disclaimer & Limitation of Liability
 
-[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.0)
+[![Version](https://img.shields.io/badge/version-1.2.1-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.1)
 [![License: MIT](https://img.shields.io/badge/Default_License-MIT-blue.svg)](LICENSE)
 [![License: Apache 2.0](https://img.shields.io/badge/Alternative_License-Apache_2.0-green.svg)](licenses/LICENSE-APACHE-2.0)
 [![Status: Active Standard](https://img.shields.io/badge/Legal_Notice-Active_Standard-critical.svg)](DISCLAIMER.md)
@@ -32,19 +32,19 @@ This notice accompanies software published by **Bitseeker LLC**. A posted notice
 5. **Informational Use Only:** Any telemetry, diagnostics, memory estimates, security checks, or analytical outputs displayed by our tools are strictly informational and do not constitute professional engineering, cybersecurity, financial, or legal advice.
 6. **Automated Execution:** AI agents, generated code, and automated commands or API calls may act incorrectly or destructively. Users are responsible for review, sandboxing, and supervision.
 7. **Restricted Uses & Compliance:** The Software is not intended for life-safety or other mission-critical uses. It provides no financial, legal, tax, or regulatory advice. Users are responsible for applicable legal compliance.
-8. **Additional Terms:** The full disclaimer describes the intended scope of indemnity and Florida law/forum terms. Whether those provisions are enforceable depends on applicable law and, where contract assent is required, how users are shown and accept them.
+8. **Additional Terms:** The full disclaimer describes the intended scope of indemnity and Wyoming law/forum terms. Whether those provisions are enforceable depends on applicable law and, where contract assent is required, how users are shown and accept them.
 
 👉 **Read the full standalone legal notice:** [**`DISCLAIMER.md`**](DISCLAIMER.md)
 
 ## Releases
 
-**Current version: [v1.2.0](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.0)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
+**Current version: [v1.2.1](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.1)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
 
 ---
 
 ## 📜 2. The Standard MIT License Text
 
-UCC Article 2 concerns sales of goods. Whether its warranty rules apply to software depends on the transaction and governing law; all-caps formatting alone does not make a disclaimer enforceable. Where applicable, Florida Statutes § 672.316 requires conspicuous written language for certain warranty exclusions. See the [full disclaimer](DISCLAIMER.md) and [integration guide](templates/CORPORATE-SHIELD-GUIDE.md).
+UCC Article 2 concerns sales of goods. Whether its warranty rules apply to software depends on the transaction and governing law; all-caps formatting alone does not make a disclaimer enforceable. Where applicable, Wyo. Stat. § 34.1-2-316 requires conspicuous written language for certain warranty exclusions. See the [full disclaimer](DISCLAIMER.md) and [integration guide](templates/CORPORATE-SHIELD-GUIDE.md).
 
 Unless otherwise noted in a specific repository, our projects are distributed under the canonical **MIT License**:
 
