@@ -1,6 +1,6 @@
 # 🛡️ Bitseeker LLC Software Disclaimer & Limitation of Liability
 
-[![Version](https://img.shields.io/badge/version-1.2.1-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.1)
+[![Version](https://img.shields.io/badge/version-1.2.2-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.2)
 [![License: MIT](https://img.shields.io/badge/Default_License-MIT-blue.svg)](LICENSE)
 [![License: Apache 2.0](https://img.shields.io/badge/Alternative_License-Apache_2.0-green.svg)](licenses/LICENSE-APACHE-2.0)
 [![Status: Active Standard](https://img.shields.io/badge/Legal_Notice-Active_Standard-critical.svg)](DISCLAIMER.md)
@@ -38,7 +38,7 @@ This notice accompanies software published by **Bitseeker LLC**. A posted notice
 
 ## Releases
 
-**Current version: [v1.2.1](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.1)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
+**Current version: [v1.2.2](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.2)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
 
 ---
 
@@ -111,8 +111,8 @@ Copy [`templates/README-DISCLAIMER-SNIPPET.md`](templates/README-DISCLAIMER-SNIP
 Run this inside a Bitseeker-owned project to pull its standard `LICENSE` and `DISCLAIMER.md` from a fixed release:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/cjtsh/software-disclaimer/v1.2.0/LICENSE -o LICENSE && \
-curl -sSL https://raw.githubusercontent.com/cjtsh/software-disclaimer/v1.2.0/DISCLAIMER.md -o DISCLAIMER.md
+curl -sSL https://raw.githubusercontent.com/cjtsh/software-disclaimer/v1.2.2/LICENSE -o LICENSE && \
+curl -sSL https://raw.githubusercontent.com/cjtsh/software-disclaimer/v1.2.2/DISCLAIMER.md -o DISCLAIMER.md
 ```
 
 The versioned URL keeps automated copies stable. Review and update the pinned tag deliberately when adopting a later release. Use the Bitseeker LLC copyright line only for works the LLC owns or has received by assignment; verify the license and copyright holder for every downstream project.

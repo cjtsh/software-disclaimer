@@ -2,6 +2,12 @@
 
 Notable changes to this project are recorded here. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.2.2] - 2026-10-21
+
+### Changed
+
+- Updated the one-command downstream fetch examples to pin the current Wyoming release.
+
 ## [1.2.1] - 2026-10-21
 
 ### Changed
