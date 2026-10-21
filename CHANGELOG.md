@@ -2,6 +2,15 @@
 
 Notable changes to this project are recorded here. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2026-10-21
+
+### Changed
+
+- Expanded the protected-party definition with a clear scope limitation and an express reminder that naming people does not create personal immunity.
+- Added Florida and Palm Beach County venue text to the first-run notice, conditional on enforceable assent.
+- Added CLI assent guidance and pinned the copy commands to a versioned release.
+- Corrected the MIT/Apache comparison so license choice does not promise extra personal-liability protection.
+
 ## [1.1.1] - 2026-10-21
 
 ### Changed

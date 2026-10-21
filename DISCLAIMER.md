@@ -5,7 +5,7 @@
 
 **Canonical URL:** [https://github.com/cjtsh/software-disclaimer](https://github.com/cjtsh/software-disclaimer)
 
-For purposes of this disclaimer, “Protected Parties” means Bitseeker LLC and its members, managers, officers, employees, agents, and contributors acting in those capacities.
+For purposes of this disclaimer, “Protected Parties” means Bitseeker LLC and its sole member, managers, officers, employees, contractors, agents, affiliates, and open-source contributors, but only to the extent the relevant claim arises from acts or omissions performed for or on behalf of Bitseeker LLC or in connection with the Software. This definition does not itself shield any person from liability for that person’s own conduct or create a defense where applicable law does not provide one.
 
 This notice accompanies the applicable open-source license. It does not guarantee that every provision forms a binding contract merely because a person visits a repository or downloads software. Contractual provisions such as indemnification or forum selection may require clear notice and affirmative assent, depending on the facts and applicable law. See the [integration guidance](templates/CORPORATE-SHIELD-GUIDE.md).
 
@@ -35,11 +35,11 @@ THE SOFTWARE DOES NOT PROVIDE FINANCIAL, INVESTMENT, LEGAL, TAX, OR PROFESSIONAL
 
 ## 5. Indemnification & Hold Harmless
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, IF YOU HAVE ACCEPTED THESE TERMS, YOU AGREE TO INDEMNIFY THE PROTECTED PARTIES AGAINST THIRD-PARTY CLAIMS, LOSSES, AND REASONABLE LEGAL EXPENSES TO THE EXTENT CAUSED BY YOUR UNLAWFUL USE OF THE SOFTWARE, YOUR MATERIAL BREACH OF THESE TERMS, OR YOUR INFRINGEMENT OF A THIRD PARTY’S RIGHTS. THIS DOES NOT REQUIRE YOU TO INDEMNIFY A PROTECTED PARTY FOR A CLAIM TO THE EXTENT CAUSED BY THAT PARTY’S OWN NEGLIGENT OR WRONGFUL CONDUCT. THE PROTECTED PARTY MUST GIVE YOU PROMPT NOTICE OF A CLAIM, REASONABLY COOPERATE AT YOUR EXPENSE, AND ALLOW YOU TO CONTROL THE DEFENSE; NO SETTLEMENT MAY IMPOSE AN ADMISSION OR OBLIGATION ON A PROTECTED PARTY WITHOUT ITS WRITTEN CONSENT.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IF YOU HAVE ACCEPTED THESE TERMS, YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS THE PROTECTED PARTIES AGAINST THIRD-PARTY CLAIMS, LOSSES, AND REASONABLE LEGAL EXPENSES TO THE EXTENT CAUSED BY YOUR UNLAWFUL USE OF THE SOFTWARE, YOUR MATERIAL BREACH OF THESE TERMS, OR YOUR INFRINGEMENT OF A THIRD PARTY’S RIGHTS. THIS DOES NOT REQUIRE YOU TO INDEMNIFY A PROTECTED PARTY FOR A CLAIM TO THE EXTENT CAUSED BY THAT PARTY’S OWN NEGLIGENT OR WRONGFUL CONDUCT. THE PROTECTED PARTY MUST GIVE YOU PROMPT NOTICE OF A CLAIM, REASONABLY COOPERATE AT YOUR EXPENSE, AND ALLOW YOU TO CONTROL THE DEFENSE; NO SETTLEMENT MAY IMPOSE AN ADMISSION OR OBLIGATION ON A PROTECTED PARTY WITHOUT ITS WRITTEN CONSENT.
 
 ## 6. Governing Law & Jurisdiction
 
-If these terms form an enforceable agreement between you and Bitseeker LLC, that agreement and any dispute arising from it shall be governed by Florida law, without regard to conflict-of-law principles. Subject to applicable law, the parties consent to exclusive jurisdiction and venue in the state or federal courts located in Palm Beach County, Florida. This provision does not make a contract where no contract was formed.
+IF THESE TERMS FORM AN ENFORCEABLE AGREEMENT BETWEEN YOU AND BITSEEKER LLC, THAT AGREEMENT AND ANY DISPUTE ARISING FROM IT SHALL BE GOVERNED BY FLORIDA LAW, WITHOUT REGARD TO CONFLICT-OF-LAW PRINCIPLES. SUBJECT TO APPLICABLE LAW, THE PARTIES CONSENT TO EXCLUSIVE JURISDICTION AND VENUE IN THE STATE OR FEDERAL COURTS LOCATED IN PALM BEACH COUNTY, FLORIDA. THIS PROVISION DOES NOT MAKE A CONTRACT WHERE NO CONTRACT WAS FORMED.
 
 ## 7. Assumption of Risk & User Responsibilities
 

@@ -1,6 +1,6 @@
 # 🛡️ Bitseeker LLC Software Disclaimer & Limitation of Liability
 
-[![Version](https://img.shields.io/badge/version-1.1.1-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.1.1)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.0)
 [![License: MIT](https://img.shields.io/badge/Default_License-MIT-blue.svg)](LICENSE)
 [![License: Apache 2.0](https://img.shields.io/badge/Alternative_License-Apache_2.0-green.svg)](licenses/LICENSE-APACHE-2.0)
 [![Status: Active Standard](https://img.shields.io/badge/Legal_Notice-Active_Standard-critical.svg)](DISCLAIMER.md)
@@ -38,7 +38,7 @@ This notice accompanies software published by **Bitseeker LLC**. A posted notice
 
 ## Releases
 
-**Current version: [v1.1.1](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.1.1)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
+**Current version: [v1.2.0](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.2.0)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
 
 ---
 
@@ -79,15 +79,17 @@ SOFTWARE.
 
 ## ⚖️ 3. MIT vs. Apache 2.0: License Selection Standard
 
-While the **MIT License** is our standard for clean developer utilities, **Apache License 2.0** provides additional explicit corporate legal language for sensitive tools:
+Both the MIT License and Apache License 2.0 include warranty and liability disclaimers. Apache 2.0 also includes an express contributor patent license and related terms:
 
 | Feature | MIT License ([`licenses/LICENSE-MIT`](licenses/LICENSE-MIT)) | Apache 2.0 ([`licenses/LICENSE-APACHE-2.0`](licenses/LICENSE-APACHE-2.0)) |
 | :--- | :--- | :--- |
 | **Length** | ~170 words (short, clean) | ~1,200 words (comprehensive) |
-| **Warranty Disclaimer** | Robust `"AS IS"` clause | Robust `"AS IS"` clause (Section 7) |
-| **Liability Limitation** | Covers general damages | Explicitly enumerates loss of goodwill, work stoppage, computer failure, or malfunction (Section 8) |
+| **Warranty Disclaimer** | `"AS IS"` warranty disclaimer | `"AS IS"` warranty disclaimer (Section 7) |
+| **Liability Limitation** | Broad exclusion subject to applicable law | Broad exclusion subject to applicable law, with examples including work stoppage and computer failure (Section 8) |
 | **Patent Protection** | Silent / implied license | Explicit reciprocal patent grant & retaliation clause (Section 3) |
-| **Best For** | Clean developer utilities, fast sharing | Tools handling sensitive operations, keys, network operations, or local hardware/system modifications |
+| **Selection Consideration** | Short license text and broad familiarity | Choose when its express patent terms and conditions fit the project and contributors |
+
+Apache 2.0 is not a general guarantee of stronger personal-liability protection than MIT. Neither license eliminates liability that applicable law does not allow a party to disclaim. Choose based on patent needs, compatibility, contributor expectations, and project governance—not a promise of immunity for high-risk software.
 
 ---
 
@@ -106,12 +108,14 @@ Copy [`templates/README-DISCLAIMER-SNIPPET.md`](templates/README-DISCLAIMER-SNIP
 
 ### Option C: 1-Command Terminal Fetch into Any New Repo
 
-Run this inside any project directory to pull the standard `LICENSE` and `DISCLAIMER.md` directly from this repository:
+Run this inside a Bitseeker-owned project to pull its standard `LICENSE` and `DISCLAIMER.md` from a fixed release:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/cjtsh/software-disclaimer/main/LICENSE -o LICENSE && \
-curl -sSL https://raw.githubusercontent.com/cjtsh/software-disclaimer/main/DISCLAIMER.md -o DISCLAIMER.md
+curl -sSL https://raw.githubusercontent.com/cjtsh/software-disclaimer/v1.2.0/LICENSE -o LICENSE && \
+curl -sSL https://raw.githubusercontent.com/cjtsh/software-disclaimer/v1.2.0/DISCLAIMER.md -o DISCLAIMER.md
 ```
+
+The versioned URL keeps automated copies stable. Review and update the pinned tag deliberately when adopting a later release. Use the Bitseeker LLC copyright line only for works the LLC owns or has received by assignment; verify the license and copyright holder for every downstream project.
 
 ---
 
@@ -121,7 +125,8 @@ For desktop binaries (macOS `.dmg` / `.app`, Linux `AppImage`, Windows executabl
 
 1. **In-App "About" / First Launch Screen:** Include a scrolling terms view or an explicit **"Accept & Continue"** acknowledgment on first launch displaying [`templates/FIRST-RUN-NOTICE.txt`](templates/FIRST-RUN-NOTICE.txt). Clear notice matters, and contractual terms may require affirmative assent; the software must actually show the terms and make use conditional on acceptance if that is the intended agreement flow.
 2. **macOS DMG License Agreement (SLA):** Embed the Software License Agreement into the `.dmg` container (e.g., via `create-dmg --eula templates/FIRST-RUN-NOTICE.txt` or `hdiutil`) and/or bundle `LICENSE` and `DISCLAIMER.md` inside the mounted disk image to improve notice before installation; packaging alone does not guarantee contractual assent.
-3. **Corporate Shield:** When distributing under an LLC (such as **Bitseeker LLC**), publish and sign the software and copyright notice under the corporate entity (`Copyright (c) 2026 Bitseeker LLC`) only for rights the LLC owns or has received by assignment. An LLC attribution does not eliminate a person’s liability for their own wrongful acts.
+3. **CLI Tools:** If relying on contractual terms, show a concise notice and link to the complete terms before the first relevant use, require an affirmative response (for example, `--accept-terms` or an interactive `ACCEPT` prompt), and stop if the user declines. In non-interactive runs, require an explicit acceptance flag rather than silently assuming consent. Record only the acceptance evidence needed for the use case and follow applicable privacy rules. A banner alone is notice, not necessarily assent.
+4. **Corporate Attribution:** When distributing under an LLC (such as **Bitseeker LLC**), publish and sign in the company’s name and use its copyright notice only for rights the LLC owns or has received by assignment. Entity attribution does not eliminate a person’s liability for their own wrongful acts.
 
 ---
 
