@@ -1,55 +1,29 @@
-# Software Licensing, Disclaimers & Application-Level Defenses
+# Software Disclaimer, Licensing & Entity Attribution Guide
 
-This guide documents the legal and technical standards used across [`cjtsh`](https://github.com/cjtsh) repositories and desktop distributions.
+This guide explains how to use the repository’s notices. It is general information, not legal advice, and does not guarantee protection from claims.
 
----
+## 1. Publisher name and copyright ownership
 
-## 1. Statutory Basis (US Uniform Commercial Code)
+Use **Bitseeker LLC** as the publisher in current materials if the LLC is the entity distributing the software. A personal name does not need to appear in a README slogan or general disclaimer merely because the person maintains the GitHub account. The `@cjtsh` handle may identify the repository account without naming an individual.
 
-In US law, statutory protections under the **Uniform Commercial Code (UCC § 2-316 & § 2-719)** allow software licensors to disclaim implied warranties (*merchantability*, *fitness for a particular purpose*) and exclude incidental or consequential damages, **provided the language is conspicuous** (which is why open-source disclaimers are written in **ALL CAPS**).
+Copyright notices should identify the actual copyright owner. Authorship alone does not automatically transfer a copyright to an LLC. If software was created personally and the LLC is intended to own it, confirm that the rights were assigned in writing before using an LLC-only copyright notice. Keep third-party and contributor rights distinct. A GitHub handle or LLC label does not create anonymity or erase a person’s own legal responsibility.
 
-The capitalized section of our licenses and disclaimers provides two primary legal shields:
-* **"AS IS" WITHOUT WARRANTY**: Completely negates any implied claim that the software is bug-free, safe, or fit to run on a user's hardware.
-* **LIMITATION OF LIABILITY**: Explicitly waives claims for tort, negligence, or breach of contract arising from data loss, bricked machines, or financial loss.
+Florida law generally makes an LLC’s debts the company’s debts and does not impose them on a member solely because they are a member or manager. See [Fla. Stat. § 605.0304](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699%2F0605%2FSections%2F0605.0304.html). That protection is not personal immunity for someone’s own tortious conduct; see, for example, [Costa Investors, LLC v. Liberty Grande LLC](https://law.justia.com/cases/florida/fourth-district-court-of-appeal/2022/21-2676.html). Keep company and personal affairs distinct, sign agreements in the company’s name and capacity, and avoid personal guarantees unless intended.
 
----
+## 2. What disclaimer language can and cannot do
 
-## 2. MIT vs. Apache 2.0: Choosing the Right License
+Clear, prominent language helps communicate that software is provided without warranties and that certain damages are excluded. It cannot guarantee dismissal of a claim, bind someone who never agreed to contractual terms, or waive duties and liabilities that applicable law makes nonwaivable. Florida courts assess whether a release is clear and understandable and whether enforcing it would violate public policy; see [Sanislo v. Give Kids The World, Inc.](https://law.justia.com/cases/florida/supreme-court/2015/sc12-2409.html).
 
-While the **MIT License** is our default standard for maximum permissiveness and clean sharing, **Apache License 2.0** provides more explicit corporate legal language for sensitive tools:
+The UCC is not a universal software-disclaimer statute. Article 2 applies to sales of goods; how it applies to a software transaction can depend on the transaction and governing law. Under [Fla. Stat. § 672.316](https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0600-0699%2F0672%2F0672.316.html), certain written warranty exclusions must be conspicuous. Uppercase text may help visibility where that rule applies, but typography alone does not establish assent or enforceability.
 
-| Feature | MIT License ([`LICENSE-MIT`](../licenses/LICENSE-MIT)) | Apache 2.0 ([`LICENSE-APACHE-2.0`](../licenses/LICENSE-APACHE-2.0)) |
-| :--- | :--- | :--- |
-| **Length** | ~170 words (short, clean) | ~1,200 words (comprehensive) |
-| **Warranty Disclaimer** | Robust `"AS IS"` clause | Robust `"AS IS"` clause (Section 7) |
-| **Liability Limitation** | Covers general damages | Explicitly enumerates loss of goodwill, work stoppage, computer failure, or malfunction (Section 8) |
-| **Patent Protection** | Silent / implied license | Explicit reciprocal patent grant & retaliation clause (Section 3) |
-| **Best For** | Clean developer utilities, scripts, fast sharing | Tools handling sensitive operations, cryptographic keys, network operations, or complex system/hardware modifications |
+## 3. Notice and affirmative assent
 
----
+A public README or disclaimer link is useful notice, but do not assume that visiting GitHub or downloading a repository proves acceptance of every contractual term. Florida decisions distinguish passive browsewrap notice from a clear action that manifests assent; see [Eglin Federal Credit Union v. Baird](https://law.justia.com/cases/florida/first-district-court-of-appeal/2024/1d2023-1866.html).
 
-## 3. Multi-Layer Notice Strategy
+If a product relies on indemnification or a forum-selection clause as contract terms, present the terms before use, make them easy to review, require an affirmative “I agree” action where appropriate, and retain evidence of the version and acceptance. A first-run text file only accomplishes this if the application actually presents it and conditions use on an affirmative action. Consider separate counsel review of any click-through agreement, especially before distributing an app or binary.
 
-To ensure no user can claim *"they never opened the LICENSE file,"* include conspicuous notices at three levels:
+## 4. License and distribution consistency
 
-1. **Repository Root (`LICENSE` & `DISCLAIMER.md`)**: Include the canonical license and link to [`cjtsh/software-disclaimer`](https://github.com/cjtsh/software-disclaimer).
-2. **Top/Header of `README.md`**: Embed [`templates/README-DISCLAIMER-SNIPPET.md`](README-DISCLAIMER-SNIPPET.md) near the top of the README before installation instructions.
-3. **Application-Level Defenses (DMG / GUI / CLI)**:
-   * **In-App "About" / First Launch Screen**: Include a scrolling terms box or an explicit **"Accept & Continue"** acknowledgment on the first run displaying the warranty disclaimer ([`templates/FIRST-RUN-NOTICE.txt`](FIRST-RUN-NOTICE.txt)). Courts evaluate whether the user had reasonable notice of the disclaimer before running the code.
-   * **macOS DMG License Agreement (SLA)**: When packaging macOS `.dmg` files, embed a Software License Agreement directly into the DMG container (or include `LICENSE` and `TERMS.md` inside the mounted volume) using `create-dmg --eula` or `hdiutil` so the user is presented with the license agreement before mounting/installing.
+The root `LICENSE` grants the rights stated in the MIT License. A separate disclaimer should not silently add restrictions that conflict with that license. Keep all copyright notices accurate, preserve third-party notices, and identify the correct licensor in source files, release packages, and documentation.
 
----
-
-## 4. Corporate Shield Attribution
-
-When publishing commercial-grade utilities or signed binaries under an LLC (such as **Bitseeker LLC**), publish and sign the software and copyright notice under the corporate entity name (or dual attribution):
-
-```text
-Copyright (c) 2026 Bitseeker LLC
-```
-or
-```text
-Copyright (c) 2026 Chris J Terry (cjtsh) / Bitseeker LLC
-```
-
-This ensures that legal notice and any potential dispute are directed at the corporate entity rather than personal assets.
+For releases, include the license and disclaimer in the package and link them prominently from the project README. A DMG or first-run screen can improve notice, but it is not automatically a binding contract without suitable presentation and assent.

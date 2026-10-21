@@ -1,10 +1,13 @@
 # Standard Software Disclaimer & Limitation of Liability
 
 **Effective Date / Last Updated:** October 21, 2026  
-**Author / Maintainer:** Chris J Terry (`cjtsh`) / Bitseeker LLC  
+**Publisher / Maintainer:** Bitseeker LLC (GitHub account: [`@cjtsh`](https://github.com/cjtsh))
+
 **Canonical URL:** [https://github.com/cjtsh/software-disclaimer](https://github.com/cjtsh/software-disclaimer)
 
-For purposes of this disclaimer, “Protected Parties” means Bitseeker LLC and its members, managers, officers, employees, agents, and contributors, together with Chris J Terry (`cjtsh`) and the authors and contributors to the Software.
+For purposes of this disclaimer, “Protected Parties” means Bitseeker LLC and its members, managers, officers, employees, agents, and contributors acting in those capacities.
+
+This notice accompanies the applicable open-source license. It does not guarantee that every provision forms a binding contract merely because a person visits a repository or downloads software. Contractual provisions such as indemnification or forum selection may require clear notice and affirmative assent, depending on the facts and applicable law. See the [integration guidance](templates/CORPORATE-SHIELD-GUIDE.md).
 
 ---
 
@@ -14,7 +17,7 @@ THIS SOFTWARE, SOURCE CODE, BINARIES, SCRIPTS, DOCUMENTATION, AND ASSOCIATED MAT
 
 THE SOFTWARE IS PROVIDED **"AS IS"** AND **"AS AVAILABLE"**, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, SECURITY, ACCURACY, RELIABILITY, AND NON-INFRINGEMENT.
 
-IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, CONTRIBUTORS, OR AFFILIATED ENTITIES (INCLUDING CHRIS J TERRY, `cjtsh`, AND BITSEEKER LLC) BE LIABLE FOR ANY CLAIM, DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES (INCLUDING, WITHOUT LIMITATION, LOSS OF DATA, CORRUPTION OF FILES, HARDWARE MALFUNCTION OR DAMAGE, SYSTEM FAILURE, WORK STOPPAGE, LOSS OF PROFITS, LOSS OF CRYPTOGRAPHIC KEYS OR DIGITAL ASSETS, OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN AN ACTION OF CONTRACT, STRICT LIABILITY, TORT (INCLUDING NEGLIGENCE OR OTHERWISE), OR OTHER LEGAL THEORY, ARISING in ANY WAY OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE, INABILITY TO USE, OR OTHER DEALINGS IN THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE PROTECTED PARTIES SHALL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF DATA, HARDWARE DAMAGE, SYSTEM FAILURE, LOST PROFITS, LOSS OF DIGITAL ASSETS, OR BUSINESS INTERRUPTION) ARISING OUT OF OR RELATED TO THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION APPLIES UNDER ANY THEORY OF LIABILITY. NOTHING IN THIS DISCLAIMER EXCLUDES OR LIMITS LIABILITY THAT CANNOT LAWFULLY BE EXCLUDED OR LIMITED.
 
 ---
 
@@ -32,15 +35,15 @@ THE SOFTWARE DOES NOT PROVIDE FINANCIAL, INVESTMENT, LEGAL, TAX, OR PROFESSIONAL
 
 ## 5. Indemnification & Hold Harmless
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS THE PROTECTED PARTIES FROM AND AGAINST CLAIMS, LIABILITIES, DAMAGES, LOSSES, COSTS, AND EXPENSES (INCLUDING REASONABLE ATTORNEYS’ FEES) ARISING FROM OR RELATED TO: (A) YOUR USE OR MISUSE OF THE SOFTWARE; (B) YOUR VIOLATION OF THIS DISCLAIMER; (C) YOUR VIOLATION OF THIRD-PARTY RIGHTS, INCLUDING INTELLECTUAL PROPERTY, PRIVACY, OR TERMS OF SERVICE; OR (D) ILLEGAL, RECKLESS, OR NEGLIGENT ACTIONS YOU COMMIT USING OR IN CONNECTION WITH THE SOFTWARE.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IF YOU HAVE ACCEPTED THESE TERMS, YOU AGREE TO INDEMNIFY THE PROTECTED PARTIES AGAINST THIRD-PARTY CLAIMS, LOSSES, AND REASONABLE LEGAL EXPENSES TO THE EXTENT CAUSED BY YOUR UNLAWFUL USE OF THE SOFTWARE, YOUR MATERIAL BREACH OF THESE TERMS, OR YOUR INFRINGEMENT OF A THIRD PARTY’S RIGHTS. THIS DOES NOT REQUIRE YOU TO INDEMNIFY A PROTECTED PARTY FOR A CLAIM TO THE EXTENT CAUSED BY THAT PARTY’S OWN NEGLIGENT OR WRONGFUL CONDUCT. THE PROTECTED PARTY MUST GIVE YOU PROMPT NOTICE OF A CLAIM, REASONABLY COOPERATE AT YOUR EXPENSE, AND ALLOW YOU TO CONTROL THE DEFENSE; NO SETTLEMENT MAY IMPOSE AN ADMISSION OR OBLIGATION ON A PROTECTED PARTY WITHOUT ITS WRITTEN CONSENT.
 
 ## 6. Governing Law & Jurisdiction
 
-This disclaimer and any dispute arising out of or related to the Software shall be governed by the laws of the State of Florida, without regard to its conflict-of-law principles. Any suit, action, or proceeding arising out of or related to the Software shall be brought exclusively in the state or federal courts located in Palm Beach County, Florida, and you consent to their jurisdiction and venue, to the extent permitted by law.
+If these terms form an enforceable agreement between you and Bitseeker LLC, that agreement and any dispute arising from it shall be governed by Florida law, without regard to conflict-of-law principles. Subject to applicable law, the parties consent to exclusive jurisdiction and venue in the state or federal courts located in Palm Beach County, Florida. This provision does not make a contract where no contract was formed.
 
 ## 7. Assumption of Risk & User Responsibilities
 
-By downloading, cloning, compiling, installing, configuring, or executing the Software, you explicitly acknowledge and agree that:
+By using the Software, you assume the practical risks described below. Whether any provision creates a contract depends on the notice, assent, and applicable law; see the integration guidance.
 
 1. **You Run This Software Entirely at Your Own Risk:** You assume full and sole responsibility for any consequences resulting from the installation, configuration, or execution of the Software on your hardware, operating system, network, or cloud environment.
 2. **No Guarantee of Maintenance or Support:** This is free, open-source software. There is no paid support, service-level agreement (SLA), maintenance commitment, security patching guarantee, or promise of compatibility with future operating system or hardware releases.
@@ -52,9 +55,9 @@ By downloading, cloning, compiling, installing, configuring, or executing the So
 
 ## 8. Statutory Protections & Severability
 
-Under applicable law, including the Uniform Commercial Code (UCC), implied warranties of merchantability and fitness for a particular purpose are expressly disclaimed, and incidental and consequential damages are expressly excluded.
+Where applicable law permits, all warranties are disclaimed to the extent stated above and in the applicable license. UCC Article 2 governs sales of goods; whether and how its rules apply to a particular software distribution depends on the transaction and governing law. This notice does not assume that UCC rules apply to every software download.
 
-Some jurisdictions do not allow the exclusion of certain implied warranties or the limitation or exclusion of liability for incidental or consequential damages. In such jurisdictions, the liability of the authors and copyright holders shall be limited to the maximum extent permitted by applicable law ($0.00 USD or the minimum statutory amount required by law). If any provision of this disclaimer is held invalid, illegal, or unenforceable, it shall be modified to the minimum extent necessary to make it valid and enforceable, and the remaining provisions shall continue in full force and effect.
+Some jurisdictions do not allow certain warranty disclaimers or liability limitations. Each provision applies only to the extent permitted by applicable law. If a provision is held invalid or unenforceable, it shall be severed or narrowed only as necessary, and the remaining provisions shall remain in effect to the extent permitted by law.
 
 ---
 
@@ -66,4 +69,4 @@ All third-party product names, logos, brands, and trademarks (including but not 
 
 ## 10. Governing Open-Source License
 
-Unless explicitly stated otherwise in a specific repository's root `LICENSE` file, all software published under [`cjtsh`](https://github.com/cjtsh) is licensed under the standard **MIT License** (or **Apache License 2.0** where specified). This disclaimer supplements—and does not narrow or remove—the warranty disclaimers and liability limitations contained within the applicable open-source license.
+For repositories that adopt this framework, the root `LICENSE` file identifies the applicable open-source license. This disclaimer supplements that license only to the extent the terms are valid and enforceable; it does not silently add restrictions that conflict with the license.
