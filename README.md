@@ -1,6 +1,6 @@
-# 🛡️ Standard Software Disclaimer & Limitation of Liability (`cjtsh`)
+# 🛡️ Bitseeker LLC Software Disclaimer & Limitation of Liability
 
-[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.1.0)
+[![Version](https://img.shields.io/badge/version-1.1.1-blue.svg)](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.1.1)
 [![License: MIT](https://img.shields.io/badge/Default_License-MIT-blue.svg)](LICENSE)
 [![License: Apache 2.0](https://img.shields.io/badge/Alternative_License-Apache_2.0-green.svg)](licenses/LICENSE-APACHE-2.0)
 [![Status: Active Standard](https://img.shields.io/badge/Legal_Notice-Active_Standard-critical.svg)](DISCLAIMER.md)
@@ -38,7 +38,7 @@ This notice accompanies software published by **Bitseeker LLC**. A posted notice
 
 ## Releases
 
-**Current version: [v1.1.0](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.1.0)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
+**Current version: [v1.1.1](https://github.com/cjtsh/software-disclaimer/releases/tag/v1.1.1)**, released October 21, 2026. See the [changelog](CHANGELOG.md) for the changes in this version and future releases on the [GitHub Releases page](https://github.com/cjtsh/software-disclaimer/releases).
 
 ---
 

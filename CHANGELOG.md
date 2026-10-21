@@ -2,6 +2,12 @@
 
 Notable changes to this project are recorded here. Versions follow [Semantic Versioning](https://semver.org/).
 
+## [1.1.1] - 2026-10-21
+
+### Changed
+
+- Put Bitseeker LLC first in the README title and clarify that the personal GitHub account is only the repository host.
+
 ## [1.1.0] - 2026-10-21
 
 ### Changed
